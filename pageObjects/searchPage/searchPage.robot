@@ -6,6 +6,7 @@ Variables  search-page-locators.yaml
 *** Variables ***
 ${VALID_BOOKING_CODE}      DA935
 ${INVALID_BOOKING_CODE}    TESTING123
+${ERROR_MESSAGE}           Please enter valid Flight Number
 
 *** Keywords ***
 Verify search page
@@ -18,8 +19,8 @@ Input flight number
 Click search button
     Click element    locator=${search_button}
 
-# Show error message
-#     Element Text Should Be    locator    expected_message=
+Show error message
+    Element Text Should Be    locator=${error_popup}   expected=${ERROR_MESSAGE}
 
 Verify Search Result
     Wait Until Element Is Visible    locator=${verify_result}
