@@ -21,7 +21,7 @@ User search booking code with invalid data
     Verify search page
     Input flight number    booking_code=${INVALID_BOOKING_CODE}
     Click search button
-    #Show error message
+    Show error message
     Close Flight Application
 
 # Ahmad Haris Rifani
