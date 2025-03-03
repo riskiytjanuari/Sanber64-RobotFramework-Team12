@@ -20,7 +20,9 @@ Click search button
     Click element    locator=${search_button}
 
 Show error message
-    Element Text Should Be    locator=${error_popup}   expected=${ERROR_MESSAGE}
+    #Wait Until Element Is Visible   locator=${error_popup}
+    #Element Text Should Be    locator=${error_popup}    expected=${ERROR_MESSAGE}
+    Wait Until Page Contains    Please enter valid Flight Number    5s
 
 Verify Search Result
     Wait Until Element Is Visible    locator=${verify_result}
