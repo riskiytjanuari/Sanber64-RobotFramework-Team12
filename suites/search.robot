@@ -7,7 +7,6 @@ Resource    ../pageObjects/searchPage/searchPage.robot
 *** Test Cases ***
 #Riski Ferdian
 User search booking code with invalid data
-    #[Tags]    testing
     Open Flight Application    platform_version=${PLATFORM_VERSION}    device_name=${DEVICE_NAME}
     Verify home screen appears
     Click sign in button
