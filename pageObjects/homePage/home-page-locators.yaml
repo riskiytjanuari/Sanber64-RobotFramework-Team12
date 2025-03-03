@@ -1,3 +1,4 @@
 verify_home_page: '//android.widget.ImageView[@resource-id="com.example.myapplication:id/imageView4"]'
 login_button: '//android.widget.Button[@resource-id="com.example.myapplication:id/login"]'
 search_menu: '//android.widget.Button[@resource-id="com.example.myapplication:id/search_flight"]'
+verify_login_success: ''
