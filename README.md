@@ -8,7 +8,8 @@
 2. Haris Rifani
 - Fitur = Search with Valid Booking Code
 
-3. ....
+3. Alexander Romian Simarmata
+- Fitur = Sign In With Unregistered Data
 
 4. ....
 
