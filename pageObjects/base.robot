@@ -18,7 +18,7 @@ Open Flight Application
     [Arguments]    ${platform_version}    ${device_name}
     Open Application    remote_url=${REMOTE_URL} 
     ...    platformName=${PLATFORM_NAME}
-    ...    platformVersion=${PLATFORM_VERSION_2}
+    ...    platformVersion=${platform_version}
     ...    deviceName=${device_name} 
     ...    appPackage=${APP_PACKAGE}
     ...    appActivity=${APP_ACTIVITY}
